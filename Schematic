@@ -1,0 +1,21 @@
+Microcontroller       Keypad              HX711 Module             Buzzer
+--------------        ------              ------------             ------
+Pin 18    -------->   R1
+Pin 19    -------->   R2
+Pin 21    -------->   R3
+Pin 22    -------->   R4
+Pin 23    -------->   C1
+Pin 25    -------->   C2
+Pin 26    -------->   C3
+Pin 27    -------->   C4
+
+Pin 16    -------->   DOUT
+Pin 4     -------->   SCK
+Pin 2     -------->   VCC
+GND       -------->   GND
+
+Pin 32    -------->   Buzzer +
+
+                            Buzzer -
+                              |
+                             GND
