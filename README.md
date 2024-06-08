@@ -33,5 +33,31 @@ Resets the input buffer and prompts the user to enter a new price.
 Functions:
 buzz(int buzzCount = 1): Provides audible feedback by toggling the buzzer.
 weight(): Measures and returns the weight using the load cell and HX711.
-Code
-cpp
+
+
+
+#Keypad Connections
+The keypad has 4 rows and 4 columns. You need to connect each row and column to a digital pin on your microcontroller. Based on your code:
+
+Keypad Rows:
+
+Row 1 (R1) to Pin 18
+Row 2 (R2) to Pin 19
+Row 3 (R3) to Pin 21
+Row 4 (R4) to Pin 22
+Keypad Columns:
+
+Column 1 (C1) to Pin 23
+Column 2 (C2) to Pin 25
+Column 3 (C3) to Pin 26
+Column 4 (C4) to Pin 27
+HX711 Load Cell Amplifier Connections
+The HX711 module is used to interface with the load cell. Based on your code:
+
+Load Cell Data Output Pin (DOUT): Connect to Pin 16
+Load Cell Clock Pin (SCK): Connect to Pin 4
+VCC Pin: Connect to Pin 2 (you've set this pin as output and written it HIGH in your code)
+Buzzer Connection
+The buzzer is connected to a digital pin on your microcontroller. Based on your code:
+
+Buzzer Pin: Connect to Pin 32
